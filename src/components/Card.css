@@ -1,0 +1,26 @@
+.card{
+    height: 350px;
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: rotate(1deg) scale(1.03);
+  }
+.card img{
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    /* color: white; */
+}
+.card p{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 300px;
+}
+/* .cntr{
+   padding-right: 20px;
+} */

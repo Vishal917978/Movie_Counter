@@ -1,0 +1,21 @@
+.back{
+    background-image: url("..//image/annie-spratt-yI3weKNBRTc-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1510px;
+    height:1380px;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Outer{
+    color: black;
+}
+.card_cntr{
+        display: flex;
+        flex-wrap: wrap; /* to allow wrapping on small screens */
+        gap: 20px; /* spacing between cards */
+        justify-content: center; 
+        padding: 20px;
+
+}
