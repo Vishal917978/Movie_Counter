@@ -1,4 +1,4 @@
-.card{
+/* .card{
     height: 350px;
     width: 300px;
     font-size: 18px;
@@ -15,12 +15,84 @@
     width: 300px;
     height: 300px;
     /* color: white; */
-}
+/* 
 .card p{
     background-color: whitesmoke;
     height: 50px;
     width: 300px;
-}
+} */
 /* .cntr{
    padding-right: 20px;
-} */
+} */ 
+
+.movie-card {
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    margin: 10px;
+    max-width: 200px; /* Reduced from 300px */
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  .image-container {
+    height: 250px; /* Reduced from 400px */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-card:hover .card-image {
+    transform: scale(1.1);
+  }
+  
+  .card-body {
+    padding: 12px;
+  }
+  
+  .card-title {
+    font-size: 1rem; /* Reduced from 1.1rem */
+    min-height: 40px; /* Reduced from 50px */
+    margin-bottom: 8px;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .card-text {
+    font-size: 0.8rem; /* Reduced from 0.9rem */
+    margin-bottom: 4px;
+    color: #666;
+  }
+  
+  /* Optional: Add a gradient overlay on hover */
+  .movie-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,0.5) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .movie-card:hover::after {
+    opacity: 1;
+  }

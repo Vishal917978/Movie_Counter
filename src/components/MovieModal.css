@@ -1,0 +1,96 @@
+.movie-modal .modal-content {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  border-bottom: 2px solid #eee;
+  padding: 20px 25px;
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2d3436;
+}
+
+.movie-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+  padding: 20px;
+}
+
+.poster-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quick-info {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.quick-info p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detail-block {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.detail-block h4 {
+  color: #2d3436;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #eee;
+}
+
+.plot-text {
+  line-height: 1.6;
+  color: #555;
+}
+
+.ratings {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.rating-item {
+  background: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  gap: 10px;
+}
+
+.rating-source {
+  font-weight: 600;
+  color: #2d3436;
+}
+
+.rating-value {
+  color: #e74c3c;
+}

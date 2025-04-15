@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../image/logo.png';
+import Home from '../pages/Home';
 import "./Nav1.css"
 
 function NavScrollExample() {

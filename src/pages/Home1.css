@@ -1,4 +1,4 @@
-.back{
+.back1{
     background-image: url("..//image/dcl-650-Bx5-8M-y0sI-unsplash\ \(1\).jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,10 +9,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue3;
 }
-.Outer{
+.Outer1{
     color: black;
 }
-.card_cntr{
+.card_cntr1{
         display: flex;
         flex-wrap: wrap; /* to allow wrapping on small screens */
         gap: 20px; /* spacing between cards */
@@ -20,3 +20,4 @@
         padding: 20px;
 
 }
+
